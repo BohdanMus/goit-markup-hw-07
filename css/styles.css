@@ -543,7 +543,7 @@ body {
   text-transform: uppercase;
   color: var(--main-background-color);
   margin-bottom: 20px;
-  display: flex;
+  display: block;
 }
 .subscription-input {
   width: 358px;
@@ -558,7 +558,7 @@ body {
   color: var(--main-background-color);
   transition-property: border-color;
   transition: var(--main-transition-duration)
-  var(--main-transition-timing-function);
+    var(--main-transition-timing-function);
 }
 .subscription-input::placeholder {
   font-weight: 400;
@@ -579,8 +579,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--main-background-color);
   background-color: #2196f3;
