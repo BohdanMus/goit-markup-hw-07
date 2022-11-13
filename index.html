@@ -18,7 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
@@ -435,17 +435,24 @@
             </li>
           </ul>
         </div>
-          <form class="subscription-form">
-            <label for="subscription-email" class="subscription-label">Підпишіться на розсилку</label>
-            <input 
-            type="email" 
-            name="subscription-email" 
-            class="subscription-input" 
-            placeholder="E-mail" 
-            required />
-            <button type="submit" class="button-subscription">
-              Підписатися <svg class="icon-send" width="24" height="24"><use href="./images/icons.svg#icon-send"></use></svg></button>
-          </form>
+        <form class="subscription-form">
+          <label for="subscription-email" class="subscription-label"
+            >Підпишіться на розсилку</label
+          >
+          <input
+            type="email"
+            name="subscription-email"
+            class="subscription-input"
+            placeholder="E-mail"
+            required
+          />
+          <button type="submit" class="button-subscription">
+            Підписатися
+            <svg class="icon-send" width="24" height="24">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
