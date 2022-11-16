@@ -1,8 +1,8 @@
 /* EXAMPLES */
-.section-examples {
+.examples {
   padding-top: 0;
 }
-.examples-title {
+.examples__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -11,14 +11,14 @@
   color: var(--main-title-color);
   margin-bottom: 50px;
 }
-.examples-list {
+.pictures__list {
   display: flex;
   gap: 30px;
 }
-.examples-top-wrap {
+.pictures__list-item {
   position: relative;
 }
-.examples-top-text {
+.pictures__list-text {
   position: absolute;
   bottom: 0;
   font-size: 14px;

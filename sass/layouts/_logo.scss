@@ -1,8 +1,8 @@
 /* logo */
-.logo-link {
+.logo {
   margin-right: 93px;
 }
-.logo-1 {
+.logo__start {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -10,11 +10,16 @@
   letter-spacing: 0.03em;
   color: var(--main-accent-color);
 }
-.logo-2 {
+.logo__finish {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+.logo__finish--light {
+  color: var(--main-background-color);
+}
+.logo__finish--dark {
   color: #000000;
 }

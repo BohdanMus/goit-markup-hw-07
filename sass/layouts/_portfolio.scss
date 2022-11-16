@@ -1,6 +1,11 @@
 /* PORTFOLIO */
-.section-portfolio {
+.portfolio {
   background-color: var(--main-background-color);
+}
+.filter__list {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
 }
 .filter-button {
   font-family: "Roboto";
@@ -28,12 +33,12 @@
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 }
-.portfolio-list {
+.gallery__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-.portfolio-item {
+.gallery__list-item {
   width: calc((100% - 60px) / 3);
   transition-property: box-shadow;
   transition: var(--main-transition-duration)
@@ -44,19 +49,11 @@
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
 }
-
-.portfolio-wrap {
-  padding: 20px 24px;
-  background-color: var(--main-background-color);
-  display: block;
-  border: 1px solid #eeeeee;
-}
-
-.portfolio-top-wrap {
+.gallery__list-top-wrap {
   position: relative;
   overflow: hidden;
 }
-.portfolio-top-text {
+.gallery__list-top-text {
   position: absolute;
   top: 0;
   padding: 63px 24px;
@@ -70,16 +67,17 @@
   transition-property: transform;
   transition: var(--main-transition-duration)
     var(--main-transition-timing-function);
-  .portfolio-item:hover & {
+  .gallery__list-item:hover & {
     transform: translateY(0);
   }
 }
-.filter-list {
-  display: flex;
-  margin-bottom: 50px;
-  justify-content: center;
+.gallery__list-wrap {
+  padding: 20px 24px;
+  background-color: var(--main-background-color);
+  display: block;
+  border: 1px solid #eeeeee;
 }
-.portfolio-title {
+.gallery__list-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -87,7 +85,7 @@
   color: var(--main-title-color);
   padding-bottom: 4px;
 }
-.portfolio-text {
+.gallery__list-text {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;

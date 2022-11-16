@@ -5,25 +5,25 @@
   border-bottom: 1px solid #ececec;
   margin: 0 auto;
 }
-.site-nav {
+.menu {
   display: flex;
   gap: 50px;
 }
-.header-navigation {
+.navigation {
   display: flex;
   align-items: center;
   position: relative;
 }
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
-.contact-header {
+.header__contact {
   display: flex;
   margin-left: auto;
   gap: 50px;
 }
-.nav-link {
+.menu__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
@@ -37,7 +37,7 @@
   &:hover {
     color: var(--main-accent-color);
   }
-  .site-nav &.current {
+  .menu &.current {
     color: var(--main-accent-color);
   }
   &.current::after {
@@ -52,7 +52,7 @@
     right: 0;
   }
 }
-.contact-header-link {
+.contact__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;

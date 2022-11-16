@@ -1,5 +1,9 @@
 /* FEATURE */
-.feature-icon-item {
+.card__list {
+  display: flex;
+  gap: 30px;
+}
+.card__list-wrap {
   width: 270px;
   height: 120px;
   background: #f5f4fa;
@@ -9,15 +13,10 @@
   justify-content: center;
   margin-bottom: 30px;
 }
-.feature-icon {
+.card__list-icon {
   fill: currentColor;
 }
-
-.feature-list {
-  display: flex;
-  gap: 30px;
-}
-.feature-title {
+.card__list-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -26,7 +25,7 @@
   color: var(--main-title-color);
   margin-bottom: 10px;
 }
-.feature-text {
+.card__list-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
